@@ -44,35 +44,6 @@ input::-ms-clear, textarea::-ms-clear {
 Main components 
 
 -------------------------------- */
-header[role=banner] {
-  position: relative;
-  height: 50px;
-  background: #343642;
-}
-header[role=banner] #cd-logo {
-  float: left;
-  margin: 4px 0 0 5%;
-  /* reduce logo size on mobile and make sure it is left aligned with the transform-origin property */
-  -webkit-transform-origin: 0 50%;
-  -moz-transform-origin: 0 50%;
-  -ms-transform-origin: 0 50%;
-  -o-transform-origin: 0 50%;
-  transform-origin: 0 50%;
-  -webkit-transform: scale(0.8);
-  -moz-transform: scale(0.8);
-  -ms-transform: scale(0.8);
-  -o-transform: scale(0.8);
-  transform: scale(0.8);
-}
-header[role=banner] #cd-logo img {
-  display: block;
-}
-header[role=banner]::after {
-  /* clearfix */
-  content: '';
-  display: table;
-  clear: both;
-}
 @media only screen and (min-width: 768px) {
   header[role=banner] {
     height: 80px;
@@ -92,7 +63,7 @@ header[role=banner]::after {
   margin-right: 5%;
   width: 44px;
   height: 100%;
-  background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/148866/cd-icon-menu.svg") no-repeat center center;
+  background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/148866/Ffielcon-menu.svg") no-repeat center center;
   cursor: pointer;
 }
 .main-nav ul {
@@ -212,7 +183,6 @@ xsigin/signup popup
   width: 90%;
   max-width: 600px;
   background: #FFF;
-  margin: 3em auto 4em;
   cursor: auto;
   border-radius: 0.25em;
   -webkit-transform: translateY(-30px);
@@ -270,7 +240,7 @@ xsigin/signup popup
 }
 .cd-form .fieldset {
   position: relative;
-  margin: 1.4em 0;
+  margin-top: 0.5em;
 }
 .cd-form .fieldset:first-child {
   margin-top: 0;
